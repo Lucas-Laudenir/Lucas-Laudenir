@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Oportunidades de Parcerias</title>
+    <link rel="stylesheet" href="./CSS/busca.css">
+</head>
+<body>
+    <header>
+        <h1>Conexão 360</h1>
+        <h2>Buscar Oportunidades de Parcerias</h2>
+    </header>
+    <div class="container">
+        <div class="search-options">
+            <button onclick="buscarEmpresas()">Empresas</button>
+            <button onclick="buscarProjetos()">Todos os Projetos</button>
+        </div>
+        <div class="search-balloon">
+            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <button onclick="realizarPesquisa()">Pesquisar</button>
+        </div>
+        <ul id="posts" class="posts-list">
+            <!-- Resultados da busca aparecerão aqui -->
+        </ul>
+        <div class="navigation">
+            <button onclick="editarPerfil()">Editar perfil</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+    <script src="./js/busca.js"></script>
+</body>
+</html>

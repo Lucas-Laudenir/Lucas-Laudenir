@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1> ENTRAR </h1>
+
+        <div id='msgError'></div>
+        
+        
+
+            <div class="label-float">
+<input type="text" id="usuario" placeholder="" required>
+
+<label id="userLabel"  for="usuario">usuario</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+
+                <label id="senhaLabel"  for="senha">Senha</label>
+                <i  class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="justify-center" >
+<button onclick="entrar()">entrar</button>
+            </div>
+            
+            <br>
+            <br>
+
+            <p>nao tem cadastro?
+                <a href="file:///E:/AEP/teste/cadastro.html"> cadastra-se </cadastra-se></a>
+            </p>
+
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

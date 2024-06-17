@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+/* BOTÂO */
+button{
+  background-color: rgba(72, 72, 255, 0.534);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  font-size: 20px;
+  cursor: pointer;
+  top: 20px;
+}
+/* LOGIN */
+
+.tela-login{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.inserir{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.entrar{
+    background-color: rgba(72, 72, 255, 0.534);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color: rgba(109, 109, 255, 0.534) ;
+}
+
+/* CADASTRO */
+
+.tela-cadastro{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.botao-cadastro{
+    color: rgb(181, 181, 255);
+}
+
+
+/*  EDIÇÃO PERFIL  */
+
+.tela-editar-perfil{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    padding-left: 50px;
+    padding-right: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.perfil-info{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 15px;
+     position: absolute;
+    padding: 30px;
+    right: 20px;
+    left: 390px;
+    top: 20px;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.foto-perfil{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.inserir-info{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.feed{
+    background-color: rgba(72, 72, 255, 0.534);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 40%;
+    font-size: 20px;
+    cursor: pointer;
+    top: 50px;
+}
+
+.feed:hover{
+    background-color: rgba(109, 109, 255, 0.534) ;
+}
+
+/* BUSCA (FEED DE PROJETOS) */
+
+li{
+    list-style:none;
+  }
+  
+  header{
+    width: 100%;
+    height: 50px;
+  
+    background: #014880;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    box-shadow: 1px 0 3px rgba(0,0,0,0.4);
+  }
+  
+  .main{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  div.newPost{
+    width:95%;
+    height: 240px;
+  
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+    padding:25px;
+  
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.05);
+  }
+  
+  div.newPost div.infoUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.newPost div.infoUser div.imgUser{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+  }
+  
+  div.newPost div.infoUser strong{
+    font-size: 16px;
+    color:#014880;
+    margin-left: 10px;
+  }
+  
+  div.newPost form.formPost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  div.newPost form.formPost textarea{
+    background: #fbfbfb;
+    margin:15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    border: 0;
+    height: 90px;
+    outline: none;
+  
+    font-weight: bold;
+    color:#727272;
+    font-family: 'Roboto', sans-serif;
+    border:2px solid #fff;
+  }
+  div.newPost form.formPost textarea:focus{
+    border:2px solid #014880;
+  }
+  div.newPost form.formPost div.iconsAndButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  div.newPost form.formPost div.iconsAndButton div.icons{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  div.newPost form.formPost div.iconsAndButton div.icons button{
+    outline: none;
+    margin-right: 15px;
+    border:0;
+    background: #fff;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.newPost form.formPost div.iconsAndButton button.btnSubmitForm{
+    background:#014880;
+    padding: 10px 30px;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+  
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+  }
+  div.newPost form.formPost div.iconsAndButton button.btnSubmitForm:hover{
+    background: rgb(0, 77, 136);
+  }
+  
+  ul.posts li.post{
+    margin-bottom: 50px;
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0,0,0,0.05);
+  }
+  ul.posts li.post div.infoUserPost{
+    display: flex;
+    align-items: center;
+  }
+  
+  ul.posts li.post div.infoUserPost div.imgUserPost{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #014880;
+  }
+  ul.posts li.post div.infoUserPost  div.nameAndHour{
+    margin-left: 10px;
+  }
+  
+  ul.posts li.post div.infoUserPost  div.nameAndHour >strong{
+    color:#014880;
+  }
+  
+  ul.posts li.post div.infoUserPost div.nameAndHour  >p{
+    color:#d1d1d1;
+    font-size:12px;
+  }
+  
+  ul.posts li.post >p{
+    width: 100%;
+    margin:20px 0;
+    font-weight: bold;
+    color: #727272;
+  }
+  ul.posts li.post div.actionBtnPost{
+    display:flex;
+    align-items: center;
+  }
+  ul.posts li.post div.actionBtnPost button.filesPost{
+    padding:5px 20px;
+    border: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    margin-right: 10px;
+    border-radius:10px;
+    cursor: pointer;
+    color:#fff;
+    font-weight: bold;
+    transition: background 0.2s;
+  
+  }
+  
+  ul.posts li.post div.actionBtnPost button.filesPost img{
+    margin-right: 5px;
+  }
+  .like{
+    background: #ff6b6b;
+  }
+  .like:hover{
+    background: rgb(248,75,75);
+  }
+  .comment{
+    background: #ffc320;
+  }
+  .comment:hover{
+    background: rgb(245,180,0);
+  }
+  .share{
+    background: rgb(0, 53, 94);
+  }
+  .share:hover{
+    background: rgb(0, 53, 94);
+  }
+
+  .logo{
+    width: 30px;
+  }

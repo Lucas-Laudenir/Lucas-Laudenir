@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="./CSS/perfil.css">
+</head>
+<body>
+
+    <div class="tela-editar-perfil">
+        <div>
+            <a href="./busca.html">
+                <button class="feed">Feed</button>
+            </a>
+        </div>
+        <br>
+        <h1 class="titulo" onclick="feed">Editar Perfil</h1>
+
+        <div class="titulo">
+            <label>
+                <img id="foto" src="./media/icon_perfil.jpg" class="foto-perfil">
+                <input type="file" id="imag"  accept="image/*">
+            </label>
+        </div>
+
+        <div class="perfil-info">
+            Nome da Empresa:
+            <br>
+            <div id="nomeEmpresa1"></div>
+            <br>
+            CNPJ da Empresa:
+            <br>
+            <div id="CNPJ"></div>
+            <br>
+            <div class="label-float">
+                <label id="labelODS" for="ODS">ODSs que sua empresa contribui ou busca contribuir:</label>
+                <input class="inserir-info" type="text" id="ODS" placeholder=" " required>
+                <button id="btnApresentarODS">Adicionar</button>
+                <br>
+                <br>
+                <div></div>
+            <div class="feed" id="apresentarODS"></div>
+            </div>
+            <br>
+            
+            <div class="label-float">
+                <label id="labelTipo" for="Tipo">Tipo da empresa</label>
+                <input class="inserir-info" type="text" id="Tipo" placeholder=" " required>
+                <button id="btnTipoEmpresa">Adicionar</button>
+                <br>
+                <br>
+                <div class="feed" id="apresentarTipo">
+          </div>
+            </div>
+
+            <main class="main">
+                <!-- Formulário de postagem -->
+                <div class="newPost">
+            
+                  <div class="infoUser"></div>
+            
+                  <form action="" class="formPost" id="formPost">
+                    <textarea  id="textarea" name="textarea" placeholder="Vamos mudar o mundo? Digite aqui seu objtivo e explique qual ODS ele faz parte!!! "></textarea>
+
+            
+                      <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
+                    </div>
+                  </form>
+                </div>
+            <button onclick="sair()">Sair</button>
+            
+        </div>
+
+    </div>
+<script src="./js/perfil.js"></script>
+</body>
+</html>
