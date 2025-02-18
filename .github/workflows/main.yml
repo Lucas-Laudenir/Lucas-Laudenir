@@ -10,9 +10,9 @@ on:
   # Permite execução manual
   workflow_dispatch:
 
-# Permissões explícitas para permitir push
 permissions:
-  contents: write
+  contents: read
+  pages: write
 
 # Regras
 jobs:
